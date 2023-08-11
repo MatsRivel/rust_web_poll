@@ -23,4 +23,4 @@ async fn handler_hello() -> impl IntoResponse{
     println!("->> {:<12} - handler_hello","HANDLER");
     Html("Hello <strong>World!</strong>")
 }
-// endregion: --- Handler Hello ---
+// endregion: --- Handler Hello --- 
